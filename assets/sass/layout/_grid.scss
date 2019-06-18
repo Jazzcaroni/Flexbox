@@ -15,17 +15,19 @@
   height: 10rem;
 }
 .contenedor__imagenes2 {
-  align-content: center;
+  display: flex;
   justify-content: center;
-  width: 75%;
-  height: auto;
-  margin-left: 7.1rem;
+  
 }
 .item2 {
   box-sizing: border-box;
-  align-items: center;
-  height: 19.3rem;
-	overflow: hidden;
+    display: contents;
+    justify-content: center;
+   .img5 {
+
+   width: 50%%;
+   height: 50%;
+   }
 
 }
 
