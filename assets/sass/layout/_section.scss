@@ -1,0 +1,25 @@
+.contenedor__button {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 7rem;
+}
+
+.contenedor__banderas {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
+
+.item {
+  background-color: $rosado;
+  padding: .2rem .5rem .2rem .5rem;
+  margin: .5rem;
+  width: 10rem;
+  color: $white;
+  align-items: center;
+  font-family: $cousine;
+  font-size: $large;
+  text-align: center;
+}

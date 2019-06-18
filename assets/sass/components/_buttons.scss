@@ -1,0 +1,46 @@
+//  Componente de botón
+
+.button {
+  padding: 1rem 3rem;
+  cursor: pointer;
+  font-family: $cousine;
+  font-size: $mediun;
+}
+
+// Button
+.button_primary {
+  border: none;
+  color: $white;
+  background-color: $verde;
+
+  &:hover {
+    background-color: $verde-claro;
+  }
+  &:focus {
+    background-color: $gris;
+  }
+}
+
+
+.button2 {
+  padding: 1.1rem 2.5rem;
+  cursor: pointer;
+  font-family: $cousine;
+  font-size: $large;
+
+}
+
+// Button
+.button_secundary {
+  border: none;
+  color: $white;
+  background-color: $azul;
+  border: 1px solid $gris;
+
+  &:hover {
+    background-color: $verde-claro;
+  }
+  &:focus {
+    background-color: $gris;
+  }
+}

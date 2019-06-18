@@ -1,0 +1,29 @@
+:root {
+  font-family: $cousine;
+  font-size: $mediun;
+}
+
+.contenedor__navegacion {
+  justify-content: space-between;
+  display: flex;
+  border: 1px solid $gris;
+
+}
+.contenedor__navegacion__items{
+   font-family: $cousine;
+   list-style-type: none;
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+
+
+  ul li {
+    display: inline-flex;
+    padding: 1.5rem;
+  }
+}
+
+.contenedor__navegacion__logo {
+  width: 30%;
+  padding: 1.5rem 5rem 1.5rem 1.5rem;
+}
